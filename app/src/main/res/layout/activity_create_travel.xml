@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#4AB581"
+    tools:context=".CreateTravelActivity">
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="24dp"
+            android:fontFamily="@font/bmdohyeon"
+            android:text="쾌적한 여행, 여행 갈 땐"
+            android:textColor="@color/white"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/login_shape"
+        android:layout_weight="10"
+        android:orientation="vertical"
+        android:padding="30dp">
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bmdohyeon"
+                android:textAlignment="center"
+                android:textSize="32dp"
+                android:textColor="#4AB581"
+                android:text="여행 정보"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bmdohyeon"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="26dp"
+                android:text="를 입력해주세요"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingTop="15dp">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bmdohyeon"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:text="이번 여행은 "/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bmdohyeon"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    android:textColor="#4AB581"
+                    android:text="어떤 여행"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bmdohyeon"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:text="인가요 ?"/>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="여행 이름을 입력해주세요"
+                android:textColorHint="#B6B6B6"
+                android:textSize="24sp"
+                android:fontFamily="@font/bmdohyeon"
+                android:background="@drawable/textbox_shape"/>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingTop="15dp">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bmdohyeon"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    android:textColor="#4AB581"
+                    android:text="여행 일정"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bmdohyeon"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:text="은 어떻게 되나요 ?"/>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="날짜를 입력해주세요"
+                android:textColorHint="#B6B6B6"
+                android:textSize="24sp"
+                android:fontFamily="@font/bmdohyeon"
+                android:background="@drawable/textbox_shape"/>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingTop="15dp">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bmdohyeon"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    android:textColor="#4AB581"
+                    android:text="여행 인원"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bmdohyeon"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:text="은 몇 명 인가요 ?"/>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="인원수를 입력해주세요"
+                android:textColorHint="#B6B6B6"
+                android:textSize="24sp"
+                android:fontFamily="@font/bmdohyeon"
+                android:background="@drawable/textbox_shape"/>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingTop="15dp">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bmdohyeon"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    android:textColor="#4AB581"
+                    android:text="초대코드"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bmdohyeon"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:text="를 지정해주세요"/>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="6자리 숫자를 입력해주세요"
+                android:textColorHint="#B6B6B6"
+                android:textSize="24sp"
+                android:fontFamily="@font/bmdohyeon"
+                android:background="@drawable/textbox_shape"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:paddingTop="20dp"
+            android:paddingBottom="10dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/bmdohyeon"
+                android:textColor="@color/white"
+                android:text="여행 시작하기"
+                android:textSize="30sp"
+                android:background="@drawable/btn_login_shape"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

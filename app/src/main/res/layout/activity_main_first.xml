@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#4AB581"
+    tools:context=".MainFirstActivity">
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="24dp"
+            android:fontFamily="@font/bmdohyeon"
+            android:text="쾌적한 여행, 여행 갈 땐"
+            android:textColor="@color/white"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/login_shape"
+        android:layout_weight="10"
+        android:orientation="vertical"
+        android:padding="30dp">
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bmdohyeon"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="28dp"
+                android:text="반갑습니다 "/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bmdohyeon"
+                android:textAlignment="center"
+                android:textSize="34dp"
+                android:textColor="#4AB581"
+                android:text="사용자"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bmdohyeon"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="28dp"
+                android:text="님 !"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bmdohyeon"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:text="본인이 "/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bmdohyeon"
+                    android:textAlignment="center"
+                    android:textSize="22dp"
+                    android:textColor="#4AB581"
+                    android:text="가이드"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bmdohyeon"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:text="인 경우"/>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <Button
+                android:id="@+id/btn_create_travel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bmdohyeon"
+                android:text="여행 만들기"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:background="@drawable/btn_login_shape"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="vertical">
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="20dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bmdohyeon"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:text="본인이 "/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bmdohyeon"
+                    android:textAlignment="center"
+                    android:textSize="22dp"
+                    android:textColor="#4AB581"
+                    android:text="참여자"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bmdohyeon"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:text="인 경우"/>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:fontFamily="@font/bmdohyeon"
+                android:textSize="26sp"
+                android:background="@drawable/textbox_shape"
+                android:hint="초대코드를 입력해주세요"
+                android:textColorHint="#b6b6b6"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bmdohyeon"
+                android:text="여행 참여하기"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:background="@drawable/btn_login_shape"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.7"
+            android:gravity="right">
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/btn_login_shape"
+                android:padding="8dp"
+                android:drawableStart="@drawable/settings"
+                />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
